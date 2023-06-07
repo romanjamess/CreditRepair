@@ -13,7 +13,7 @@
 }
 
 label.logo {
-    color: white;
+    color: rgb(172, 43, 43);
     font-size: 35px; 
     line-height: 80px;
     padding: 0 100px;
@@ -21,7 +21,7 @@ label.logo {
 } 
 
 a{
-    color: white;
+    color: rgb(117, 23, 86);
     border-radius: 3px;
     padding: 7px 13px
 }
@@ -43,7 +43,7 @@ a{
 }
 
 a.active, a:hover {
-    background: red ;
+    background: rgb(255, 0, 64) ;
     transition: .5s;
 }
 
