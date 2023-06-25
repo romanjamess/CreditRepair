@@ -107,3 +107,11 @@ section{
      background-size: cover;
      height: calc(100vh - 80px);
 }
+
+/* Body */
+
+.herotext {
+    display: inline;
+    text-align: center;
+
+}
