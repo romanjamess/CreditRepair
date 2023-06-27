@@ -103,9 +103,9 @@ a.active, a:hover {
 }
 
 section{
-     background: url(Credit-Report.jpg) no-repeat;
+     background: url() no-repeat;
      background-size: cover;
-     height: calc(100vh - 80px);
+     /* height: calc(100vh - 80px); */
 }
 
 /* Body */
@@ -113,5 +113,15 @@ section{
 .herotext {
     display: inline;
     text-align: center;
+    margin-bottom: 20px;
 
+}
+
+.service{
+  margin-top: 20px;
+  background-color: #e9e9e9;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(235, 0, 0, 0.3);
 }
