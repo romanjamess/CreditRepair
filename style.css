@@ -51,7 +51,7 @@ h2 {
   border-radius: 20px;
   padding: 10px;
   display: inline-block;
-  box-shadow: 0 2px 4px rgba(235, 0, 0, 0.3);
+  box-shadow: 0 8px 10px rgba(255, 251, 16, 0.979);
 } 
 
 .container {
@@ -62,3 +62,24 @@ h2 {
     height: 100vh
   }
   
+ #report {
+  position: relative;
+  top: 50px; 
+  left: 100px; 
+ }
+ #ebook {
+  position: relative;
+  top: 50px; 
+  left: 100px;
+ }
+ #reading {
+  position: relative;
+  top: 50px; 
+  left: 100px; 
+ }
+ #approval {
+  position: relative;
+  top: 50px; 
+  left: 100px; 
+ }
+
