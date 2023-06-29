@@ -1,10 +1,17 @@
 *{
     box-sizing: border-box;
-    padding: 30;
+    padding: 0;
     margin: 0;
     list-style: none;
      text-decoration: none;
 }
+
+body {
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
 
 .header {
     background-color: cadetblue;
@@ -12,42 +19,42 @@
     width: 100%;
 }
 
-label.logo {
+/* label.logo {
     color: rgb(172, 43, 43);
     font-size: 35px; 
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
-} 
+}  */
 
-a{
+/* a{
     color: rgb(117, 23, 86);
     border-radius: 3px;
     padding: 7px 13px
-}
+} */
 
-.navbar {
+/* .navbar {
     min-width:  70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-}
+} */
 
-.nav-menu {
+/* .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px; 
    
-}
+} */
 
-a.active, a:hover {
+/* a.active, a:hover {
     background: rgb(255, 0, 64) ;
     transition: .5s;
-}
+} */
 
-.checkbtn {
+/* .checkbtn {
     font-size: 30px;
     color: white;
     float: right;
@@ -55,8 +62,8 @@ a.active, a:hover {
     margin-right: 40px ;
     cursor: pointer;
     display: none;
-}
-
+} */
+/* 
 #check {
     display: none;
 }
@@ -100,13 +107,8 @@ a.active, a:hover {
 #check:checked ~ ul {
     left: 0;
  }
-}
+} */
 
-section{
-     background: url() no-repeat;
-     background-size: cover;
-     /* height: calc(100vh - 80px); */
-}
 
 /* Body */
 
@@ -124,4 +126,14 @@ section{
   padding: 10px;
   display: inline-block;
   box-shadow: 0 2px 4px rgba(235, 0, 0, 0.3);
-}
+} 
+
+.container {
+    background-image: url('./assets/happy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+   height: 100vh
+  }
+  
