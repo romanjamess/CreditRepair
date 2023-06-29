@@ -11,106 +11,17 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
   }
 
 .header {
-    background-color: cadetblue;
-    height: 80px;
-    width: 100%;
+    background-color: rgb(245, 241, 241);
 }
 
-/* label.logo {
-    color: rgb(172, 43, 43);
-    font-size: 35px; 
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-}  */
-
-/* a{
-    color: rgb(117, 23, 86);
-    border-radius: 3px;
-    padding: 7px 13px
-} */
-
-/* .navbar {
-    min-width:  70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-} */
-
-/* .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px; 
-   
-} */
-
-/* a.active, a:hover {
-    background: rgb(255, 0, 64) ;
-    transition: .5s;
-} */
-
-/* .checkbtn {
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px ;
-    cursor: pointer;
-    display: none;
-} */
-/* 
-#check {
-    display: none;
+h1 {
+    color: #c90000;
 }
 
-@media (max-width: 952px){
-    label.logo {
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    .nav-menu{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px) {
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: darkgrey;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-   nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-   }
-   nav ul li a{
-    font-size: 20px;
-   }
-   a:hover, a.active{
-    background: none;
-    color:red;
-   }
-#check:checked ~ ul {
-    left: 0;
- }
-} */
-
-
-/* Body */
 
 .herotext {
     display: inline;
@@ -129,11 +40,10 @@ body {
 } 
 
 .container {
-    background-image: url('./assets/happy.jpg');
+    background-image: url('./assets/smilling.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: contain;
     background-position: center;
-   height: 100vh
+    height: 100vh
   }
   
