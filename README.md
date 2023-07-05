@@ -17,7 +17,7 @@ This is a landing page I created for my Mom that works in the credit repair buis
 
   ## installtion
 
-  To install run; no installation is required, just go here https://stormy-mesa-24238.herokuapp.com/
+  To install run; no installation is required, just go here 
 
   
 
