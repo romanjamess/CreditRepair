@@ -61,6 +61,7 @@ h2 {
 	height: 100vh;
 }
 
+
 @media screen and (max-width: 600px) {
 	.container {
 		flex-basis: 100%;
@@ -71,6 +72,14 @@ h2 {
   .service {
     width: 300px;
   }
+}
+
+
+@media screen and (max-width: 600px) {
+	#reading  {
+    padding-bottom: 50px;
+  }
+  
 }
 
 
